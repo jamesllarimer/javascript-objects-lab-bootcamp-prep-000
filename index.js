@@ -15,3 +15,8 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   object[key] = value;
   return object;
 }
+
+function destructivelyUpdateObjectByKey(object, key, value){
+  object[key] = value;
+  return object;
+}
